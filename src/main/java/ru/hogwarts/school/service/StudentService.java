@@ -15,6 +15,7 @@ public class StudentService {
         this.studentRepository = studentRepository;
     }
 
+
     public Student addStudent(Student student) {
         return studentRepository.save(student);
     }
